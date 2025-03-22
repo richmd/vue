@@ -1,12 +1,16 @@
 {
   "name": "@richmd/vue",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "It is a vue package of Richmd.",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.es.jsx",
       "require": "./dist/index.umd.jsx"
+    },
+    "./dist/vue.css": {
+      "import": "./dist/vue.css",
+      "require": "./dist/vue.css"
     },
     "./dist/index.d.ts": {
       "import": "./dist/index.d.ts",
