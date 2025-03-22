@@ -9,7 +9,7 @@ export default defineConfig({
       entry: path.resolve(__dirname, "src/index.tsx"),
       name: "richmd.vue",
       fileName: (format) => `index.${format}.jsx`,
-      cssFileName: "vue",
+      cssFileName: "richmd",
     },
     rollupOptions: {
       external: [
