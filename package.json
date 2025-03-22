@@ -1,6 +1,6 @@
 {
   "name": "@richmd/vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It is a vue package of Richmd.",
   "exports": {
     ".": {
@@ -25,7 +25,14 @@
     "build": "vite build && vue-tsc",
     "prepare": "pnpm build"
   },
-  "keywords": [],
+  "keywords": [
+    "markdown",
+    "frontend",
+    "richmd",
+    "katex",
+    "html",
+    "vue"
+  ],
   "author": "nappa <masa.yanagawa721@gmail.com>",
   "repository": {
     "type": "git",
