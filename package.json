@@ -1,6 +1,6 @@
 {
   "name": "@richmd/vue",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "description": "It is a vue package of Richmd.",
   "exports": {
     ".": {
