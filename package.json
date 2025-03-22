@@ -1,0 +1,29 @@
+{
+  "name": "vue",
+  "version": "0.0.1",
+  "description": "It is a vue package of Richmd.",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepare": "pnpm build"
+  },
+  "dependencies": {
+    "@richmd/core": "^0.1.5",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4"
+  }
+}

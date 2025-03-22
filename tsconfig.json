@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "sourceMap": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "jsxImportSource": "vue",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "isolatedModules": true,
+    "noImplicitThis": true,
+    "outDir": "./dist",
+    "lib": [
+      "ES2015",
+      "DOM"
+    ],
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "src/index.ts"]
+}
