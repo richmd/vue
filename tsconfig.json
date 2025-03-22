@@ -10,6 +10,10 @@
     "strict": true,
     "isolatedModules": true,
     "noImplicitThis": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "declarationDir": "./dist",
     "outDir": "./dist",
     "lib": [
       "ES2015",
