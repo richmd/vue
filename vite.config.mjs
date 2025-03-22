@@ -14,13 +14,11 @@ export default defineConfig({
     rollupOptions: {
       external: [
         "vue",
-        "html-react-parser",
         "@richmd/core",
       ],
       output: {
         globals: {
           vue: "Vue",
-          "html-react-parser": "parse",
           "@richmd/core": "core",
         },
       },
