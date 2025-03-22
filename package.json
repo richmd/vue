@@ -1,6 +1,6 @@
 {
   "name": "@richmd/vue",
-  "version": "0.0.9",
+  "version": "0.2.0",
   "description": "It is a vue package of Richmd.",
   "exports": {
     ".": {
@@ -25,8 +25,19 @@
     "build": "vite build && vue-tsc",
     "prepare": "pnpm build"
   },
+  "keywords": [],
+  "author": "nappa <masa.yanagawa721@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richmd/vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richmd/vue.git/issues"
+  },
+  "homepage": "https://github.com/richmd/vue.git",
+  "license": "MIT",
   "dependencies": {
-    "@richmd/core": "^0.1.6",
+    "@richmd/core": "^0.2.0",
     "vue": "^3.5.13"
   },
   "devDependencies": {
