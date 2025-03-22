@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@richmd/core':
-        specifier: ^0.1.5
-        version: 0.1.5
+        specifier: ^0.1.6
+        version: 0.1.6
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
@@ -203,8 +203,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
-  '@richmd/core@0.1.5':
-    resolution: {integrity: sha512-EoKetGibTEjjJGWo3lavvu0rDSdazOG2BjR0/mcEqI8kkr5dXCGSYobde497BJOqugHpLh8g0e3To4oEsl5ipg==}
+  '@richmd/core@0.1.6':
+    resolution: {integrity: sha512-N9Ep9ZRN8FEuUWhRC4QheuzvhfkWFZ9/I8LUiM9Vv7AsxiHBiRk0h4b5nZp6tQhfThOSEUnbVONN6Fv5OA0uRQ==}
 
   '@rollup/rollup-android-arm-eabi@4.36.0':
     resolution: {integrity: sha512-jgrXjjcEwN6XpZXL0HUeOVGfjXhPyxAbbhD0BlXUB+abTOpbPiN5Wb3kOT7yb+uEtATNYF5x5gIfwutmuBA26w==}
@@ -612,7 +612,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
-  '@richmd/core@0.1.5':
+  '@richmd/core@0.1.6':
     dependencies:
       highlight.js: 11.11.1
       katex: 0.16.21

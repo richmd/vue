@@ -1,6 +1,6 @@
 {
   "name": "@richmd/vue",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "It is a vue package of Richmd.",
   "exports": {
     ".": {
@@ -26,7 +26,7 @@
     "prepare": "pnpm build"
   },
   "dependencies": {
-    "@richmd/core": "^0.1.5",
+    "@richmd/core": "^0.1.6",
     "vue": "^3.5.13"
   },
   "devDependencies": {
