@@ -1,4 +1,5 @@
 <script lang="ts">
+import "@richmd/core/dist/richmdcss.css";
 import { richmd } from '@richmd/core'
 import { defineComponent } from 'vue'
 
