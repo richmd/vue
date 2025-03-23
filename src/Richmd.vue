@@ -1,5 +1,5 @@
 <script lang="ts">
-import { richmd } from '@richmd/core'
+import { richmd } from '@richmd/js'
 import { defineComponent } from 'vue'
 
 export default defineComponent({
