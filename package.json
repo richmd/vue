@@ -44,7 +44,7 @@
   "homepage": "https://github.com/richmd/vue.git",
   "license": "MIT",
   "dependencies": {
-    "@richmd/core": "^3.0.1",
+    "@richmd/core": "^3.1.0",
     "@richmd/js": "^1.0.0",
     "vue": "^3.5.13"
   },
