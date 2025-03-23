@@ -20,5 +20,5 @@
       "DOM"
     ],
   },
-  "include": ["src/**/*.ts", "src/**/*.vue", "src/index.tsx"]
+  "include": ["src/**/*.ts", "src/**/*.vue", "src/index.ts"]
 }

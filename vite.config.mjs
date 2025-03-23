@@ -6,9 +6,9 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, "src/index.tsx"),
+      entry: path.resolve(__dirname, "src/index.ts"),
       name: "richmd.vue",
-      fileName: (format) => `index.${format}.jsx`,
+      fileName: (format) => `index.${format}.js`,
       cssFileName: "richmd",
     },
     rollupOptions: {
