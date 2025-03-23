@@ -6,13 +6,13 @@ Vue component for [Richmd](https://github.com/richmd/core) - a tool for creating
 
 ```bash
 # Using npm
-npm install @richmd/core @richmd/vue
+npm install @richmd/vue
 
 # Using yarn
-yarn add @richmd/core @richmd/vue
+yarn add @richmd/vue
 
 # Using pnpm
-pnpm add @richmd/core @richmd/vue
+pnpm add @richmd/vue
 ```
 
 ## Usage with Nuxt
@@ -23,7 +23,7 @@ First, import the required CSS in your Nuxt app. You can do this in your `app.vu
 
 ```vue
 <script setup>
-import "@richmd/core/dist/richmd.css";
+import "@richmd/vue/dist/richmd.css";
 </script>
 ```
 
@@ -31,7 +31,7 @@ Alternatively, you can create a plugin in the `plugins` directory:
 
 ```ts
 // plugins/richmd.ts
-import "@richmd/core/dist/richmd.css";
+import "@richmd/vue/dist/richmd.css";
 
 export default defineNuxtPlugin(() => {
   // Plugin setup if needed
