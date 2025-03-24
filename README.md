@@ -1,5 +1,9 @@
 # @richmd/vue
 
+![NPM License](https://img.shields.io/npm/l/%40richmd%2Fvue)
+![NPM Version](https://img.shields.io/npm/v/%40richmd%2Fvue)
+![NPM Downloads](https://img.shields.io/npm/dw/%40richmd%2Fvue)
+
 Vue component for [Richmd](https://github.com/richmd/core) - a tool for creating rich content with Markdown.
 
 ## Installation
