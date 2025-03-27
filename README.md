@@ -106,7 +106,47 @@ const text = ref('# Start typing here...');
 </template>
 ```
 
+### 4. Use the RichmdSlide component (optional)
+
+```vue
+<script lang="ts">
+import { RichmdSlide } from '@richmd/vue';
+import "./global.css";
+import "@richmd/vue/dist/richmd.css";
+
+export default {
+  components: {
+    RichmdSlide,
+  },
+  data() {
+    return {
+      text: `:use slide:
+
+:---:title.sunset
+# Title
+
+subtext
+:---:
+
+:<--:content.sunset
+# Subtitle
+
+*subtext*
+:---:
+`,
+    };
+  },
+};
+</script>
+
+<template>
+  <RichmdSlide :text="text" :is-controller="false" />
+</template>
+```
+
 ## Component API
+
+### `Richmd`
 
 The `Richmd` component accepts the following props:
 
@@ -115,6 +155,15 @@ The `Richmd` component accepts the following props:
 | `text` | string | Yes | The markdown text to render |
 | `id` | string | No | HTML id attribute for the container div |
 | `className` | string | No | CSS class name for the container div |
+
+### `RichmdSlide`
+
+The `RichmdSlide` component accepts the following props:
+
+| Prop | Type | Required | Description |
+|------|------|----------|-------------|
+| `text` | string | Yes | The markdown text to render |
+| `is-controller` | boolean | Yes | Toggles the display of the slide controller |
 
 ## Supported Markdown Features
 

@@ -26,7 +26,8 @@ export default defineComponent({
   },
   computed: {
     compiledMarkdown () {
-      return richmd(this.markdownText)
+      const { html } = richmd(this.markdownText);
+      return html;
     }
   },
 })
