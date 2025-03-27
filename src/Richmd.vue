@@ -33,7 +33,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div :id="id" :className="className" v-html="compiledMarkdown"></div>
+  <div :id="id" :class="className" v-html="compiledMarkdown"></div>
 </template>
 
 
