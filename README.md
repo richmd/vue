@@ -163,7 +163,7 @@ The `RichmdSlide` component accepts the following props:
 | Prop | Type | Required | Description |
 |------|------|----------|-------------|
 | `text` | string | Yes | The markdown text to render |
-| `is-controller` | boolean | Yes | Toggles the display of the slide controller |
+| `is-controller` | boolean | No | Toggles the display of the slide controller |
 
 ## Supported Markdown Features
 
