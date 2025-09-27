@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@richmd/js':
-        specifier: ^2.0.13
-        version: 2.0.13
+        specifier: ^2.0.14
+        version: 2.0.14
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
@@ -203,11 +203,11 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
-  '@richmd/core@4.0.9':
-    resolution: {integrity: sha512-cMH5Ffy3zPj67oEpuRnyZdezvnk6GUW114sMxdNMO6/0vwrZuIiLlfsqZIyLwsHnXPDLBAwWetyuv5KxwBMV/Q==}
+  '@richmd/core@4.0.10':
+    resolution: {integrity: sha512-kE+5iVBgJL7FfjZLu4n2ikDBIAYAA4d+75uD7yO6z3AVKXV3aScJ4DjI4HWgp5Z/L0b1V9dLsehZyL+Q9pC4TQ==}
 
-  '@richmd/js@2.0.13':
-    resolution: {integrity: sha512-yJisd0gZfXb4d6/Ia/S+TA5QBsJNNmOnuhk5qqfzTCY0/3paOumpVzFxW58GnxLFYavzxVki0wM1YuY1Q4IDtg==}
+  '@richmd/js@2.0.14':
+    resolution: {integrity: sha512-hMlwIAXHe6i3b80EhldvFLtjdyL2o3SmxUBB5u2r5XO3i4b0EFMNXOdLERQ1jAFSLQyfQCKjZTTsO3rWfbKpcQ==}
 
   '@rollup/rollup-android-arm-eabi@4.36.0':
     resolution: {integrity: sha512-jgrXjjcEwN6XpZXL0HUeOVGfjXhPyxAbbhD0BlXUB+abTOpbPiN5Wb3kOT7yb+uEtATNYF5x5gIfwutmuBA26w==}
@@ -644,15 +644,15 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
-  '@richmd/core@4.0.9':
+  '@richmd/core@4.0.10':
     dependencies:
       highlight.js: 11.11.1
       katex: 0.16.21
       typescript: 5.8.2
 
-  '@richmd/js@2.0.13':
+  '@richmd/js@2.0.14':
     dependencies:
-      '@richmd/core': 4.0.9
+      '@richmd/core': 4.0.10
       highlight.js: 11.11.1
       katex: 0.16.21
       node-html-parser: 7.0.1
