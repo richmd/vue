@@ -10,6 +10,10 @@ export default defineComponent({
       default: "",
       require: true,
     },
+    useSlideMode: {
+      type: Boolean,
+      default: true,
+    },
     className: {
       type: String,
       default: "",
@@ -26,7 +30,7 @@ export default defineComponent({
   },
   computed: {
     compiledMarkdown () {
-      const { html } = richmd(this.markdownText);
+      const { html } = richmd(this.markdownText, this.useSlideMode);
       return html;
     }
   },

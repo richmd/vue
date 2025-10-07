@@ -16,7 +16,7 @@ export default defineComponent({
     }
   },
   data() {
-    const { slide } = richmd(this.text);
+    const { slide } = richmd(this.text, true);
 
     return {
       slide,

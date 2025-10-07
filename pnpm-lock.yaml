@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@richmd/js':
-        specifier: ^2.0.14
-        version: 2.0.14
+        specifier: ^3.0.0
+        version: 3.0.0
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
@@ -203,11 +203,11 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
-  '@richmd/core@4.0.10':
-    resolution: {integrity: sha512-kE+5iVBgJL7FfjZLu4n2ikDBIAYAA4d+75uD7yO6z3AVKXV3aScJ4DjI4HWgp5Z/L0b1V9dLsehZyL+Q9pC4TQ==}
+  '@richmd/core@5.0.0':
+    resolution: {integrity: sha512-ou+Dsc6AnPI74W6+qHaRCVwXqoFLnq5JYfp+iGJM8uzhazIPLPTTBlue6wsBoN+BMjRyCh3JtU7ZwoOTgCdEuQ==}
 
-  '@richmd/js@2.0.14':
-    resolution: {integrity: sha512-hMlwIAXHe6i3b80EhldvFLtjdyL2o3SmxUBB5u2r5XO3i4b0EFMNXOdLERQ1jAFSLQyfQCKjZTTsO3rWfbKpcQ==}
+  '@richmd/js@3.0.0':
+    resolution: {integrity: sha512-cUCR9g5qN9C/kg8O9+HOGk+yWt+pxWFvmi76qmEtTg8pVIdZcsSa+wQ4Al5slyGxXcpaDXgDvA+1bM1CiM2N0g==}
 
   '@rollup/rollup-android-arm-eabi@4.36.0':
     resolution: {integrity: sha512-jgrXjjcEwN6XpZXL0HUeOVGfjXhPyxAbbhD0BlXUB+abTOpbPiN5Wb3kOT7yb+uEtATNYF5x5gIfwutmuBA26w==}
@@ -304,6 +304,10 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@sindresorhus/is@4.6.0':
+    resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
+    engines: {node: '>=10'}
+
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
@@ -386,6 +390,10 @@ packages:
   brace-expansion@2.0.1:
     resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
 
+  char-regex@1.0.2:
+    resolution: {integrity: sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==}
+    engines: {node: '>=10'}
+
   commander@8.3.0:
     resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
     engines: {node: '>= 12'}
@@ -415,6 +423,9 @@ packages:
 
   domutils@3.2.2:
     resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
+
+  emojilib@2.4.0:
+    resolution: {integrity: sha512-5U0rVMU5Y2n2+ykNLQqMoqklN9ICBT/KsvC1Gz6vqHbz2AXXGkG+Pm5rMWk/8Vjrr/mY9985Hi8DYzn1F09Nyw==}
 
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
@@ -460,6 +471,10 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  node-emoji@2.2.0:
+    resolution: {integrity: sha512-Z3lTE9pLaJF47NyMhd4ww1yFTAP8YhYI8SleJiHzM46Fgpm5cnNzSl9XfzFNqbaz+VlJrIj3fXQ4DeN1Rjm6cw==}
+    engines: {node: '>=18'}
+
   node-html-parser@7.0.1:
     resolution: {integrity: sha512-KGtmPY2kS0thCWGK0VuPyOS+pBKhhe8gXztzA2ilAOhbUbxa9homF1bOyKvhGzMLXUoRds9IOmr/v5lr/lqNmA==}
 
@@ -481,6 +496,10 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
+  skin-tone@2.0.0:
+    resolution: {integrity: sha512-kUMbT1oBJCpgrnKoSr0o6wPtvRWT9W9UKvGLwfJYO2WuahZRHOpEyL1ckyMGgMWh0UdpmaoFqKKD29WTomNEGA==}
+    engines: {node: '>=8'}
+
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -494,6 +513,10 @@ packages:
     resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
+
+  unicode-emoji-modifier-base@1.0.0:
+    resolution: {integrity: sha512-yLSH4py7oFH3oG/9K+XWrz1pSi3dfUrWEnInbxMfArOfc1+33BlGPQtLsOYwvdMy11AwUBetYuaRxSPqgkq+8g==}
+    engines: {node: '>=4'}
 
   vite@6.2.2:
     resolution: {integrity: sha512-yW7PeMM+LkDzc7CgJuRLMW2Jz0FxMOsVJ8Lv3gpgW9WLcb9cTW+121UEr1hvmfR7w3SegR5ItvYyzVz1vxNJgQ==}
@@ -644,17 +667,18 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
-  '@richmd/core@4.0.10':
+  '@richmd/core@5.0.0':
     dependencies:
       highlight.js: 11.11.1
       katex: 0.16.21
       typescript: 5.8.2
 
-  '@richmd/js@2.0.14':
+  '@richmd/js@3.0.0':
     dependencies:
-      '@richmd/core': 4.0.10
+      '@richmd/core': 5.0.0
       highlight.js: 11.11.1
       katex: 0.16.21
+      node-emoji: 2.2.0
       node-html-parser: 7.0.1
       typescript: 5.8.2
 
@@ -714,6 +738,8 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.36.0':
     optional: true
+
+  '@sindresorhus/is@4.6.0': {}
 
   '@types/estree@1.0.6': {}
 
@@ -821,6 +847,8 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
+  char-regex@1.0.2: {}
+
   commander@8.3.0: {}
 
   css-select@5.1.0:
@@ -854,6 +882,8 @@ snapshots:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
       domhandler: 5.0.3
+
+  emojilib@2.4.0: {}
 
   entities@4.5.0: {}
 
@@ -910,6 +940,13 @@ snapshots:
 
   nanoid@3.3.11: {}
 
+  node-emoji@2.2.0:
+    dependencies:
+      '@sindresorhus/is': 4.6.0
+      char-regex: 1.0.2
+      emojilib: 2.4.0
+      skin-tone: 2.0.0
+
   node-html-parser@7.0.1:
     dependencies:
       css-select: 5.1.0
@@ -954,11 +991,17 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.36.0
       fsevents: 2.3.3
 
+  skin-tone@2.0.0:
+    dependencies:
+      unicode-emoji-modifier-base: 1.0.0
+
   source-map-js@1.2.1: {}
 
   typescript@5.7.3: {}
 
   typescript@5.8.2: {}
+
+  unicode-emoji-modifier-base@1.0.0: {}
 
   vite@6.2.2:
     dependencies:
